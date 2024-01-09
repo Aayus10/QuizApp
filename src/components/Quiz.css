@@ -1,0 +1,75 @@
+/* Add your football-themed CSS styles here */
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .que-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .question {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .option-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    width: 200px; /* Set a fixed width for uniform button size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option-btn:hover {
+    background-color: #4caf50; /* Green hover color */
+    color: #fff;
+  }
+  
+  .checked {
+    background-color: #071D54; /* Blue checked color */
+    color: #fff;
+  }
+  
+  .next-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #071d54; /* Updated color for Next button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-btn:hover {
+    background-color:#4caf50;
+  }
+  
